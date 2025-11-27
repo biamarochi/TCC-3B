@@ -259,8 +259,25 @@ section {
     background-size: cover;
 }
 
+/* Centralizar na tela */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Botão + animação */
 button {
     transition: transform 0.2s;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-5px);
 }
 
 /* REVIEW */
