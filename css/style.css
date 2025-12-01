@@ -253,6 +253,34 @@ section {
 
 /* MENU */
 
+/* Centralizar o botão */
+.btn-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    margin-top: 30px;         /* Espaço em cima (opcional) */
+}
+
+/* Estilo do botão */
+.btn-download {
+    display: inline-block;
+    background: #005bea;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 91, 234, 0.35);
+}
+
+/* Animação ao passar o mouse */
+.btn-download:hover {
+    background: #0041a8;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 91, 234, 0.45);
+}
 .menu {
     background: url(../image/menu-bg.jpg) no-repeat;
     background-position: center;
@@ -466,32 +494,6 @@ section {
 .footer .credit span {
     border-bottom: var(--border-hover);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* MEDIA QUERIES */
 
