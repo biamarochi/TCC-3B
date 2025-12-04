@@ -116,7 +116,7 @@ section {
 .home {
     min-height: 100vh;
     padding-top: 12rem;
-    background: url(../img/AZUL.jpg)
+    background: url(img/AZUL.jpg)
     background-position: center;
     background-size: cover;
 }
