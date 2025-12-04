@@ -111,7 +111,7 @@ section {
     display: none;
 }
 
-/* HOME */
+/* inicio */
 
 .home {
     min-height: 100vh;
@@ -208,7 +208,7 @@ section {
     transform: translateY(-2rem);
 }
 
-/* ABOUT */
+/* informações */
 
 .about .row {
     display: flex;
@@ -365,7 +365,7 @@ section {
     line-height: 1.8;
 }
 
-/* REVIEW */
+/* manual */
 
 .review .review-slider {
     padding: 7rem 0;
@@ -526,7 +526,7 @@ section {
     border-bottom: var(--border-hover);
 }
 
-/* MEDIA QUERIES */
+/* contato  */
 
 @media (max-width: 991px) {
     html {
